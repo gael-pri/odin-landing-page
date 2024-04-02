@@ -6,7 +6,7 @@ body {
     font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
 }
-h1, p {
+h1, h3, p {
     margin: 0;
 }
 .container {
@@ -157,7 +157,7 @@ button {
     background-color: #3882F6;
     border-radius: 12px;
     max-width: 1440px;
-    padding: 42px 220px;
+    padding: 42px 75px;
     margin: 75px 0;
     color: white;
     justify-content: space-between;
@@ -167,12 +167,22 @@ button {
 .text {
     display: flex;
     flex-direction: column;
-    flex: 8;
+    padding: 0 48px;
+    width: 500px;
+}
+h3 {
+    font-size: 24px;
+}
+.text p {
+    color: #E5E7EB;
 }
 .last {
     display: flex;
-    flex: 2;
+    width: 120px;
     border: 2px solid white;
+    padding: 12 24px;
+    text-align: center;
+    justify-content: center;
 }
 .footer {
     background-color: #1F2937;
